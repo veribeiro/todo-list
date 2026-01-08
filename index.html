@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="icon" href="/img/lofi-icon.png" type="image/png">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/music-player.css">
+    <script src="/assets/js/script.js" defer></script><!--JavaScript para o to-do-->
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--Fonte do google: Varela Round-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Começo to-do List-->
+    <div class="todo-container">
+        <header>
+            <h1>To-do</h1>
+            <!--Começo para mostrar horário atual-->
+            <div id="msg">Aqui vai aparecer uma mensagem</div>
+            <div id="time">Horário atual</div>
+            <!--Fim para mostrar horário atual-->
+        </header>
+        <!--Começo da área para escrever tarefa-->
+        <form id="todo-form">
+            <p>Adicione a sua tarefa</p>
+            <div class="form-control">
+                <input type="text" id="todo-input" placeholder="O que você vai fazer?">
+                <div class="buttonArea">
+                <button type="submit">
+                    <i class="fa-thin fa-plus"></i>
+                </button>
+                </div>
+            </div>
+        </form>
+        <!--Fim da área para escrever tarefa-->
+        
+        <!--Começo da área para editar tarefa-->
+        <form id="edit-form" class="hide">
+            <p>Edite a sua tarefa:</p>
+            <div class="form-control">
+            <input type="text" id="edit-input">
+            <div class="buttonArea">
+            <button type="submit">
+                <i class="fa-solid fa-check-double"></i>
+            </button>
+            </div>
+        </div>
+        <div class="buttonArea">
+        <button id="cancel-edit-btn">Cancelar</button>
+        </div>
+        </form>
+        <!--Fim da área para editar tarefa-->
+
+        <!--Começo das áreas das tarefas-->
+        <div class="buttonArea">
+        <div id="todo-list">
+            <div class="todo done">
+                <h3>Estudar HTML</h3>
+                <button class="finish-todo">
+                    <i class="fa-solid fa-check"></i>
+                </button>
+                <button class="edit-todo ">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                <button class="remove-todo ">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+                        <div class="todo">
+                <h3>Estudar JavaScript</h3>
+                <button class="finish-todo">
+                    <i class="fa-solid fa-check"></i>
+                </button>
+                <button class="edit-todo">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                <button class="remove-todo">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div>
+        </div>
+        <!--Fim das áreas das tarefas-->
+    </div>
+    <!--Fim To-do List-->
+    
+    <!--Começo music player-->
+    <button class="addMusic hidden" id="addMusic"><i class="fa-regular fa-square-plus"></i> Adicionar Música</button>
+    <div class="player">
+
+        <div class="img-effect">
+            <img id="img-music" src=""><!--Imagem da música-->
+            <!--Começo efeito wave-->
+            <div class="wave hidden" id="wave">
+        <div class="bar"></div>
+        <div class="bar"></div> 
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <!--Fim efeito wave-->
+        </div>
+
+        <!--Começo do conteúdo do music player-->
+        <div class="player-content">
+            <button class="remove-music-player" id="remove-music-player"><!--Botão para excluir o music player do site-->
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        <span id="musicName"></span><!--Nome da música-->
+
+        <audio src="" id="player"></audio>
+        <!--Começo Controles-->
+        <div class="controls">
+        <button class="button-music" id="prevButton"><i class="fa-solid fa-backward-step"></i></button>
+        <button class="button-music" id="playPauseButton"><a class="thing"><i class="fa-solid fa-play"></a></i></button>
+        <button class="button-music" id="nextButton"><a class="thing"><i class="fa-solid fa-forward-step"></a></i></button>
+        </div>
+        <!--Fim Controles-->
+
+        <div class="footer">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <div class="time">
+                <span id="currentTime">0:00</span>
+                <span id="duration">0:00</span>
+                </div>
+            </div>
+        </div>
+        <!--Começo do conteúdo do music player-->
+    </div>
+
+    <!--Fim music player-->
+</body>
+<script type="module" src="/assets/js/music-player.js"></script> <!--JavaScript para o music player-->
+</html>
