@@ -1,9 +1,9 @@
 //Array das músicas
 export default [
     {
-        src: "../assets/musics/lofi-study-calm.mp3",
+        src: "../musics/lofi-girl-lofi-ambient.mp3",
         name: "Lofi - FASSounds",
-        img: "../assets/img/fassounds.png"
+        img: "../img/fassounds.png"
     },
 
     {
