@@ -59,3 +59,20 @@ Link do projeto: <https://veribeiro.github.io/todo-list/>
 * JavaScript
 
 ---
+
+<h3>Anotações de comandos que aprendi nesse projeto</h3>
+
+<h4>JavaScript</h4>
+
+Nome do comando | Explicação
+----------------|--------
+setInterval()   |Permite executar uma função repetidamente em um espaço de tempo definido.
+toString()      |Converte o valor original em String
+padStart(2, '0')|"2" ->Define comprimento desejado; '0' -> Define o caractere a ser usado para preencher o início
+classList       |Propriamente dito é somente leitura, embora você possa modificá-lo usando os métodos add() e remove()
+appendChild()   |Adiciona um nó ao final da lista de filhos de um nó pai especificado.
+focus()         |Define o foco no elemento especificado
+toggle()        |Remove um token existente da lista e retorna false.
+forEach()       |Executa uma dada função em cada elemento de um array
+localStorage    |Permite acessar um objeto Storage local. Os dados ficam armazenados no localStorage e não expiram
+getItem()       |
