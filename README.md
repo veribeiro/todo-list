@@ -75,4 +75,8 @@ focus()         |Define o foco no elemento especificado
 toggle()        |Remove um token existente da lista e retorna false.
 forEach()       |Executa uma dada função em cada elemento de um array
 localStorage    |Permite acessar um objeto Storage local. Os dados ficam armazenados no localStorage e não expiram
-getItem()       |
+setItem()       |Usamos a função setItem() do localStorage para criar e armazenar um item de dados que o usuário pode nomear, configurando seu valor para uma variável
+addEventListener()|É um método usado para anexar um manipulador de eventos a um elemento no DOM
+preventDefault()|Pode ser usado para previnir a ação padrão do evento que estiver acontecendo
+closest()       |Retorna o ancestral mais próximo, em relação ao elemento atual, que possui o seletor fornecido como parâmetro
+contains()      |Este método é usado em um elemento pai para verificar se outro elemento (filho ou descendente) está contido nele
