@@ -80,3 +80,39 @@ addEventListener()|É um método usado para anexar um manipulador de eventos a u
 preventDefault()|Pode ser usado para previnir a ação padrão do evento que estiver acontecendo
 closest()       |Retorna o ancestral mais próximo, em relação ao elemento atual, que possui o seletor fornecido como parâmetro
 contains()      |Este método é usado em um elemento pai para verificar se outro elemento (filho ou descendente) está contido nele
+ontimeupdate    |É um evento que é disparado quando a posição de reprodução (o tempo atual) de um elemento de mídia HTML5, é alterada.
+Math.floor      |Realiza o arredondamento de um número para inteiro sempre para baixo. Exemplo: Arredondar o número 4.9999, com o Math.floor o resultado seria: 4
+isNaN()         |A função determina se o valor é NaN (Not-A-Number) ou não
+offsetX         |Ele informa a posição do ponteiro do mouse em relação ao elemento com o qual você interagiu.
+offsetWidth     |retorna a largura do layout de um elemento como um número inteiro
+target          |É uma propriedade de um objeto de evento que faz referência ao elemento exato onde o evento ocorreu (onde o usuário clicou, digitou, etc.)
+window.onload   |É um evento disparado automaticamente pelo navegador quando a página web inteira foi completamente carregada
+
+<h5>Métodos de salvamento</h5>
+
+* localStorage
+  
+* setItem()
+  
+
+<h5>Em relação a números</h5>
+
+* Math.floor
+
+* isNaN()
+
+
+<h5>Para saber onde o usuário clicou ou interagiu</h5>
+
+* addEventListener()
+
+* offSetX
+
+* target
+
+
+<h5>Para formatação</h5>
+
+* toString()
+
+* padStart(2, '0')
