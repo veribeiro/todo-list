@@ -42,11 +42,7 @@ Além de ter a funcionalidade de lista de tarefas, também possui uma funcionali
 * Botão para adicionar o music player, caso se o music player for excluído.
 
 ---
-<h3>Demonstração da aplicação</h3>
 
-Vídeo de como funciona o site:
-
----
 <h3>Acesso ao projeto</h3>
 
 Link do projeto: <https://veribeiro.github.io/todo-list/>
@@ -60,59 +56,49 @@ Link do projeto: <https://veribeiro.github.io/todo-list/>
 
 ---
 
-<h3>Anotações de comandos que aprendi nesse projeto</h3>
+<h3>Demonstração da aplicação</h3>
+
+Vídeo de como funciona o site:
+
+---
+
+<h3>Pesquisas de comandos que aprendi nesse projeto</h3>
 
 <h4>JavaScript</h4>
 
-Nome do comando | Explicação
-----------------|--------
-setInterval()   |Permite executar uma função repetidamente em um espaço de tempo definido.
-toString()      |Converte o valor original em String
-padStart(2, '0')|"2" ->Define comprimento desejado; '0' -> Define o caractere a ser usado para preencher o início
-classList       |Propriamente dito é somente leitura, embora você possa modificá-lo usando os métodos add() e remove()
-appendChild()   |Adiciona um nó ao final da lista de filhos de um nó pai especificado.
-focus()         |Define o foco no elemento especificado
-toggle()        |Remove um token existente da lista e retorna false.
-forEach()       |Executa uma dada função em cada elemento de um array
-localStorage    |Permite acessar um objeto Storage local. Os dados ficam armazenados no localStorage e não expiram
-setItem()       |Usamos a função setItem() do localStorage para criar e armazenar um item de dados que o usuário pode nomear, configurando seu valor para uma variável
-addEventListener()|É um método usado para anexar um manipulador de eventos a um elemento no DOM
-preventDefault()|Pode ser usado para previnir a ação padrão do evento que estiver acontecendo
-closest()       |Retorna o ancestral mais próximo, em relação ao elemento atual, que possui o seletor fornecido como parâmetro
-contains()      |Este método é usado em um elemento pai para verificar se outro elemento (filho ou descendente) está contido nele
-ontimeupdate    |É um evento que é disparado quando a posição de reprodução (o tempo atual) de um elemento de mídia HTML5, é alterada.
-Math.floor      |Realiza o arredondamento de um número para inteiro sempre para baixo. Exemplo: Arredondar o número 4.9999, com o Math.floor o resultado seria: 4
-isNaN()         |A função determina se o valor é NaN (Not-A-Number) ou não
-offsetX         |Ele informa a posição do ponteiro do mouse em relação ao elemento com o qual você interagiu.
-offsetWidth     |retorna a largura do layout de um elemento como um número inteiro
-target          |É uma propriedade de um objeto de evento que faz referência ao elemento exato onde o evento ocorreu (onde o usuário clicou, digitou, etc.)
-window.onload   |É um evento disparado automaticamente pelo navegador quando a página web inteira foi completamente carregada
+Categoria  | Nome do comando | Explicação
+------------|----------------|--------
+Temporizador|setInterval()   |Permite executar uma função repetidamente em um espaço de tempo definido.
+Formatação de String|toString()      |Converte o valor original em String
+Formatação de String|padStart(2, '0')|"2" ->Define comprimento desejado; '0' -> Define o caractere a ser usado para preencher o início
+Manipulação de DOM|classList       |Propriamente dito é somente leitura, embora você possa modificá-lo usando os métodos add() e remove()
+Manipulação de DOM|appendChild()   |Adiciona um nó ao final da lista de filhos de um nó pai especificado.
+Manipulação de DOM|focus()         |Define o foco no elemento especificado
+Manipulação de DOM|toggle()        |Remove um token existente da lista e retorna false.
+Arrays|forEach()       |Executa uma dada função em cada elemento de um array
+Armazenamento|localStorage    |Permite acessar um objeto Storage local. Os dados ficam armazenados no localStorage e não expiram
+Armazenamento|setItem()       |Usamos a função setItem() do localStorage para criar e armazenar um item de dados que o usuário pode nomear, configurando seu valor para uma variável
+Eventos e controle de fluxo|addEventListener()|É um método usado para anexar um manipulador de eventos a um elemento no DOM
+Eventos e controle de fluxo|preventDefault()|Pode ser usado para previnir a ação padrão do evento que estiver acontecendo
+Manipulação de DOM|closest()       |Retorna o ancestral mais próximo, em relação ao elemento atual, que possui o seletor fornecido como parâmetro
+Manipulação de DOM|contains()      |Este método é usado em um elemento pai para verificar se outro elemento (filho ou descendente) está contido nele
+Eventos e controle de fluxo|ontimeupdate    |É um evento que é disparado quando a posição de reprodução (o tempo atual) de um elemento de mídia HTML5, é alterada.
+Números|Math.floor      |Realiza o arredondamento de um número para inteiro sempre para baixo. Exemplo: Arredondar o número 4.9999, com o Math.floor o resultado seria: 4
+Números|isNaN()         |A função determina se o valor é NaN (Not-A-Number) ou não
+Capturar interações|offsetX         |Ele informa a posição do ponteiro do mouse em relação ao elemento com o qual você interagiu.
+Manipulação de DOM|offsetWidth     |retorna a largura do layout de um elemento como um número inteiro
+Capturar interações|target          |É uma propriedade de um objeto de evento que faz referência ao elemento exato onde o evento ocorreu (onde o usuário clicou, digitou, etc.)
+Eventos e controle de fluxo|window.onload   |É um evento disparado automaticamente pelo navegador quando a página web inteira foi completamente carregada
 
-<h5>Métodos de salvamento</h5>
+<h4>CSS</h4>
 
-* localStorage
-  
-* setItem()
-  
-
-<h5>Em relação a números</h5>
-
-* Math.floor
-
-* isNaN()
-
-
-<h5>Para saber onde o usuário clicou ou interagiu</h5>
-
-* addEventListener()
-
-* offSetX
-
-* target
-
-
-<h5>Para formatação</h5>
-
-* toString()
-
-* padStart(2, '0')
+Categoria | Nome do comando |Explicação
+----------|-----------------|-------
+Modelos de caixa (Box Model)| overflow-y | Especifica o comportamento do conteúdo quando ele ultrapassa as bordas superior e inferior de um elemento de bloco
+Interatividade | pointer-events: none | O elemento não recebe eventos de ponteiro. Clicar nele faz com que o clique "passe através" dele, ativando o elemento posicionado embaixo
+Efeitos Visuais | backdrop-filter | Permite aplicar efeitos gráficos, como desfoque ou mudança de cor, à área atrás de um elemento
+Contorno | outline: none | É uma linha desenhada ao redor de elementos, FORA das bordas, para fazer com que o elemento "se destaque". Nesse caso está "none" então desaparecerá o contorno padrão
+Tipografia | white-space | É uma propriedade que ajuda a controlar como os espaços em branco e as quebras de linha dentro do texto de um elemento são tratados
+Estilização de Texto | text-overflow | É a ferramenta ideal para lidar com texto que ultrapassa os limites e texto oculto
+Espaçamento | gap | Definir espaçamentos (lacunas ou "gutters") entre elementos irmãos dentro de um contêiner, sem precisar usar margin em cada item individualmente
+Posicionamento | z-index | Determina a ordem de empilhamento dos elementos em uma página web. Quanto maior o valor do Z-Index, mais acima o elemento será exibido na pilha
