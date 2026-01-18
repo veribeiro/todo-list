@@ -1,5 +1,5 @@
-<h1>Lista de tarefas</h1>
-<h3>Sobre o projeto</h3>
+<h1>🗒️ Lista de tarefas</h1>
+<h3>💡 Sobre o projeto</h3>
 
 O site de lista de tarefas possui o tema principal "lofi", criada para ajudar usuários a tornar a realização de tarefas mais produtivas.
 
@@ -7,9 +7,9 @@ Além de ter a funcionalidade de lista de tarefas, também possui uma funcionali
 
 > O objetivo desse projeto é ampliar meus conhecimentos principalmente na parte da linguagem JavaScript, incluindo o que já havia aprendido no curso técnico de desenvolvimento de sistemas.
 
----
+##
 
-<h3>Funcionalidades</h3>
+<h3>🖥️ Funcionalidades</h3>
 <h4>Lista de tarefas:</h4>
 
 * Informação de horas, incluindo se é manhã, tarde ou noite (seleciona a hora que já está no seu aparelho);
@@ -41,28 +41,36 @@ Além de ter a funcionalidade de lista de tarefas, também possui uma funcionali
 
 * Botão para adicionar o music player, caso se o music player for excluído.
 
----
+##
 
-<h3>Acesso ao projeto</h3>
+<h3>📂 Acesso ao projeto</h3>
 
 Link do projeto: <https://veribeiro.github.io/todo-list/>
 
----
-<h3>Tecnologias utilizadas</h3>
+##
+<h3>🛠️ Tecnologias utilizadas</h3>
 
 * HTML
 * CSS
 * JavaScript
 
----
+##
 
-<h3>Demonstração da aplicação</h3>
+<h3>💭 Vídeos que me inspirei</h3>
+Para o to-do list: https://www.youtube.com/watch?v=HSssE1PRQcA
 
-Vídeo de como funciona o site:
+Para o music player: https://www.youtube.com/watch?v=44-NQW25BZk
 
----
+##
 
-<h3>Pesquisas de comandos que aprendi nesse projeto</h3>
+<h3>Conclusão</h3>
+Aprendi eventos, métodos que são usados em cada situação do JavaScript, como a manipulação de DOM. Consegui ampliar meus conhecimentos em como organizar um arquivo js.
+<br><br>
+E por fim, entendi alguns conceitos de propriedades em css, que ainda não tinha visto, como o posionamento de elementos.
+
+##
+
+<h3>📘 Pesquisas de comandos que aprendi nesse projeto</h3>
 
 <h4>JavaScript</h4>
 
@@ -102,3 +110,35 @@ Tipografia | white-space | É uma propriedade que ajuda a controlar como os espa
 Estilização de Texto | text-overflow | É a ferramenta ideal para lidar com texto que ultrapassa os limites e texto oculto
 Espaçamento | gap | Definir espaçamentos (lacunas ou "gutters") entre elementos irmãos dentro de um contêiner, sem precisar usar margin em cada item individualmente
 Posicionamento | z-index | Determina a ordem de empilhamento dos elementos em uma página web. Quanto maior o valor do Z-Index, mais acima o elemento será exibido na pilha
+
+<h4>Sites de referências dessas pesquisas</h4>
+
+[setInterval] - [(https://www.devmedia.com.br/javascript-setinterval-executando-funcoes-repetidamente/43491)]
+
+[classList] - [https://developer.mozilla.org/pt-BR/docs/Web/API/Element/classList)]
+
+[appendChild] - [https://developer.mozilla.org/pt-BR/docs/Web/API/Node/appendChild]
+
+[focus] - [https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focusLink para a fonte]
+
+[toggle] - [https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/toggle)]
+
+[forEach] - [https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)]
+
+[addEventListener()] - [https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Getting_started/Your_first_website/Adding_interactivity)]
+
+[preventDefault] - [https://developer.mozilla.org/pt-BR/docs/Web/API/Event/stopPropagation)]
+
+[Título da Pesquisa/Artigo] - [https://developer.mozilla.org/pt-BR/docs/Web/API/Element/closest)]
+
+[Título da Pesquisa/Artigo] - [Link para a fonte]
+
+[Título da Pesquisa/Artigo] - [Link para a fonte]
+
+[Título da Pesquisa/Artigo] - [Link para a fonte]
+
+[Título da Pesquisa/Artigo] - [Link para a fonte]
+
+[Título da Pesquisa/Artigo] - [Link para a fonte]
+
+[Título da Pesquisa/Artigo] - [Link para a fonte]
