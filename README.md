@@ -12,7 +12,7 @@ In addition to the to-do list functionality, it also has an extra feature: a mus
 
 ##
 
-<h3>🖥️ Features</h3>
+<h3>🖥️ Functionalities</h3>
 <h4>To-do list:</h4>
 
 * Time information, including whether it is morning, afternoon, or night (select the time already displayed on your device);
