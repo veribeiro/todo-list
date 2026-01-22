@@ -18,6 +18,7 @@ body{
     .todo-container {
     max-height: 70vh;
     overflow-y: auto;
+    max-width: 30vh;
     }
 
 }
